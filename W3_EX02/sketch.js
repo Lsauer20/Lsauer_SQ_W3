@@ -1,5 +1,5 @@
 // ============================================================
-// NEON BRAWL - Themed Fighting Game
+// NEON BRAWL - Themed Fighting Game (FIXED)
 // ============================================================
 
 const STATE_START = "start";
@@ -96,7 +96,7 @@ class Fighter {
 
     this.punchDir = targetX > this.x ? 1 : -1;
 
-    powerSound.play(); // NEW sound
+    powerSound.play();
   }
 
   getPunchX() {
@@ -108,7 +108,7 @@ class Fighter {
 
     this.health--;
     this.hitFlash = 12;
-    hitFlashScreen = 6; // screen flash
+    hitFlashScreen = 6;
 
     if (this.health <= 0) {
       this.health = 0;
@@ -317,28 +317,38 @@ function checkHits() {
   }
 }
 
-// ---------------- UI ----------------
+// ---------------- FIXED HEALTH BARS ----------------
 function drawHealthBars() {
-  let barW = 200, barH = 18, y = 45, p = 30;
+  let barW = 200;
+  let barH = 18;
+  let y = 45;
+  let p = 30;
 
+  // P1
   fill(40);
   rect(p, y, barW, barH);
   fill(0, 255, 200);
   rect(p, y, map(fighter1.health, 0, 3, 0, barW), barH);
 
+  // P2 ✅ FIXED
   fill(40);
   rect(width - p - barW, y, barW, barH);
+
+  let p2W = map(fighter2.health, 0, 3, 0, barW);
+
   fill(255, 120, 0);
-  rect(width - p - map(fighter2.health, 0, 3, 0, barW), y);
+  rect(width - p - p2W, y, p2W, barH);
 
   fill(255);
   textSize(13);
   textAlign(LEFT);
   text("P1", p, y - 5);
+
   textAlign(RIGHT);
   text("P2", width - p, y - 5);
 }
 
+// ---------------- UI ----------------
 function drawFightHUD() {
   fill(120);
   textSize(12);
@@ -364,3 +374,4 @@ function keyPressed() {
     fighter2.startAttack(fighter1.x);
   }
 }
+
