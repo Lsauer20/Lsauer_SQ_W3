@@ -23,7 +23,7 @@ The console will show any errors in your sketch.
 
 ## Assets
 
-| File | Purpose |
+| File | Source |
 | -------------------------------------------- | ------------------------------------------------------ |
 | `assets/sounds/punch_1.wav` – `punch_9.wav` | Punch SFX —OpenGameArtorg                              |
 | `assets/sounds/win.wav`                     | listener4me, Win Sound Effect — OpenGameArt.org        |
