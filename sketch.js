@@ -162,7 +162,7 @@ let groundY;
 // ---------------- PRELOAD ----------------
 function preload() {
   bgMusic   = loadSound("assets/sounds/BMusic.mp3");
-  powerSound = loadSound("assets/sounds/power.wav");
+  powerSound = loadSound("assets/sounds/Power.wav");
   jumpSound  = loadSound("assets/sounds/Jump.wav");
   winSound   = loadSound("assets/sounds/win.wav");
 }
