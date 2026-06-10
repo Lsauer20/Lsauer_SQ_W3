@@ -25,12 +25,12 @@ The console will show any errors in your sketch.
 
 | File | Source |
 | -------------------------------------------- | ------------------------------------------------------ |
-| `assets/sounds/punch_1.wav` – `punch_9.wav` | Punch SFX —OpenGameArtorg                              |
-| `assets/sounds/win.wav`                     | listener4me, Win Sound Effect — OpenGameArt.org        |
-| `assets/sounds/background.mp3`              | Matthew Pablo, Space Dimensions — OpenGameArt.org      |
-| `assets/sounds/BMusic.mp3`                   | Kashido, Prelude, OP. 28, No. 4 — Artlist.io                    |
-| `assets/sounds/Power.wav`                 | unrealsfx, Powerful Game - Power Up — Artlist.io       |
-| `assets/sounds/Jump.wav`               | Artlist Original, Pixel Game - Short Jump — Artlist.io |
+| `assets/sounds/punch_1.wav` – `punch_9.wav` [5] | Punch SFX —OpenGameArtorg                              |
+| `assets/sounds/win.wav` [3]                    | listener4me, Win Sound Effect — OpenGameArt.org        |
+| `assets/sounds/background.mp3` [4]             | Matthew Pablo, Space Dimensions — OpenGameArt.org      |
+| `assets/sounds/BMusic.mp3` [2]                  | Kashido, Prelude, OP. 28, No. 4 — Artlist.io                    |
+| `assets/sounds/Power.wav` [6]                | unrealsfx, Powerful Game - Power Up — Artlist.io       |
+| `assets/sounds/Jump.wav` [1]              | Artlist Original, Pixel Game - Short Jump — Artlist.io |
 
 ## References
 
